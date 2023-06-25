@@ -39,6 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guideline2"
         android:backgroundTint="@color/white"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="324dp">
         <View
@@ -81,6 +82,7 @@
         android:layout_height="wrap_content"
         tools:text="Pikachu"
         android:textSize="30sp"
+        android:textColor="@color/black"
         android:textStyle="bold"/>
 
     <TextView
@@ -92,6 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/height"
+        android:textColor="@color/black"
         android:textSize="30sp"/>
 
     <TextView
@@ -103,6 +106,7 @@
         app:layout_constraintTop_toTopOf="@id/text_height"
         app:layout_constraintBottom_toBottomOf="@id/text_height"
         tools:text="32"
+        android:textColor="@color/black"
         android:textSize="30sp"/>
 
     <TextView
@@ -114,6 +118,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/id"
+        android:textColor="@color/black"
         android:textSize="30sp"/>
 
     <TextView
@@ -124,6 +129,7 @@
         app:layout_constraintBottom_toBottomOf="@id/text_id"
         tools:text="25"
         android:textSize="30sp"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -136,6 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/weight"
+        android:textColor="@color/black"
         android:textSize="30sp"/>
 
     <TextView
@@ -147,6 +154,7 @@
         app:layout_constraintTop_toTopOf="@id/text_weight"
         app:layout_constraintBottom_toBottomOf="@id/text_weight"
         android:layout_width="wrap_content"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
