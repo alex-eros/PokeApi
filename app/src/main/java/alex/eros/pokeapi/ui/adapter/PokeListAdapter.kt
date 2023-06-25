@@ -28,7 +28,6 @@ class PokeListAdapter (var pokeNames:MutableList<String> = mutableListOf(),var l
 
     override fun onBindViewHolder(holder: PokelistHolder, position: Int) {
       val name = pokeNames[position]
-
         with(holder){
             bind(name)
             setListener(name)
